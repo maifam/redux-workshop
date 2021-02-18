@@ -53,7 +53,10 @@ Update this function so that it returns a new value based on the state and actio
 
 Example:
 
+
 ```js
+
+
 reducer(0, { type: "counter/add", payload: 10 });
 // => 10
 
